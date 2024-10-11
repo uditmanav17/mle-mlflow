@@ -8,7 +8,8 @@
 **/.local
 **/.npm
 **/mlruns
-
+**/postgres-data
+/mlf_dev_env/Chapter*
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
