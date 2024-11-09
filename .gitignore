@@ -10,6 +10,8 @@
 **/mlruns
 **/postgres-data
 /mlf_dev_env/Chapter*
+**/*.png
+**/*.csv
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
