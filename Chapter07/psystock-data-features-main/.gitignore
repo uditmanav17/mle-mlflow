@@ -1,6 +1,7 @@
 # custom
 a.ipynb
 **data**
+!load_raw_data.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

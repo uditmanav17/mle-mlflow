@@ -40,4 +40,4 @@ if __name__ == "__main__":
 
         train_data_path = Path("./data/training/data.csv")
         train_data_path.parent.mkdir(exist_ok=True, parents=True)
-        pd.DataFrame(training_data).to_csv(train_data_path)
+        pd.DataFrame(training_data).to_csv(train_data_path, index=False)
