@@ -13,6 +13,8 @@
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 - [Pyenv](https://github.com/pyenv/pyenv)(Optional)
 
+**Note** - Make sure to select `Add conda to PATH` while installing conda.
+
 ---
 
 ## Start ML FLow server
@@ -22,5 +24,7 @@
 ---
 
 ## Setting up Conda Environment
-- After installing Conda, use `conda_env` to create environment
-- [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+- After installing Conda, use `conda_env` to create environment as follows -
+```conda env create --name envname --file=conda_env.yaml```
+
+- Refer [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) for more commands
