@@ -28,9 +28,9 @@ def workflow():
 
         model_uri = os.path.join(train_run.info.artifact_uri, "model")
         mlflow.register_model(model_uri, "training-model-psystock")
-        print(model_uri)
+        print(f"{model_uri = }")
 
-        train_run_id = "0a13af4b8b8d4fbd8a4d09d148cb8429"
+        # train_run_id = "0a13af4b8b8d4fbd8a4d09d148cb8429"
         _run("register_model", {"run_id": train_run_id})
 
 
